@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+$burg: #2C0713;
+$wine: #811315;
+$sunset: #D94E1C;
+$sunrise: #EEB468;
+$lemon: #F9F1BE;
+
+:root {
+  --burg-dark: #{darken($burg, 5%)};
+  --burg: #{$burg};
+  --burg-light: #{lighten($burg, 15%)};
+
+  --wine-dark: #{darken($wine, 15%)};
+  --wine: #{$wine};
+  --wine-light: #{lighten($wine, 15%)};
+
+  --sunset-dark: #{darken($sunset, 15%)};
+  --sunset: #{$sunset};
+  --sunset-light: #{lighten($sunset, 15%)};
+
+  --sunrise-dark: #{darken($sunrise, 15%)};
+  --sunrise: #{$sunrise};
+  --sunrise-light: #{lighten($sunrise, 15%)};
+
+  --lemon-dark: #{darken($lemon, 15%)};
+  --lemon: #{$lemon};
+  --lemon-light: #{lighten($lemon, 5%)};
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--burg-dark);
+}
+
+
+
+
